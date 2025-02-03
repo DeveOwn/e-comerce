@@ -1,7 +1,19 @@
 {
   "files": [],
+  "compilerOptions": {
+    "types": [
+      "@types/three",
+      "framer-motion"
+    ],
+    "jsx": "react-jsx",
+    "esModuleInterop": true
+  },
   "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }
